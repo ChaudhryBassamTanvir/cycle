@@ -9,6 +9,7 @@
             this.dest=d;
         }
     }
+    //creating graph
     public static void createGraph(ArrayList<Edge>graph[]){
         for(int i =0 ; i<graph.length;i++){
             graph[i]= new ArrayList<Edge>();
